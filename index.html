@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <title>
+      FB | Profile Page
+    </title>
+    <style>
+    body{
+      font-size:8px;
+      margin:0;
+      padding:0;
+      font-family: 'Play', sans-serif;
+      background-color:#F8F8F8;
+    }
+
+    
+  </style>
+  </head>
+  <body>
+
+    <!-- Start of nav bar -->
+    <div class="w3-bar w3-top" style='background-color:#55E9BC'>
+      <div class="w3-content">
+        <a class="w3-bar-item w3-round w3-button w3-left w3-hover-none" href="#"> <img class="w3-image logo" src="images/fblogo.jpg" alt="fb"></a> 
+      </div>
+    </div>
+    <!-- end of nav bar -->
+
+    <!-- Start of main -->
+    <div class="w3-content w3-padding-64">
+      <!-- Start of basic Details -->
+      <div class="w3-panel w3-white w3-border w3-padding w3-hide-small profile">
+        <div class="w3-row-padding">
+          <div class="w3-col m3 s4">
+            <div class="w3-container">
+              <img src="" alt="ProfilePic" class="profilepic w3-round-large w3-image me">
+            </div>
+          </div>
+          <div class="w3-col m9 s8 w3-center">
+            <div class="w3-container">
+              <h4><b><span class="main-content username"></span></b></h4>
+              <div class="w3-row  w3-border-top w3-center">
+                <div class="w3-col m6 s6">
+                  <p><i class="fa fa-birthday-cake" aria-hidden="true"></i> <span id="dob"></span></p>
+                </div>
+                <div class="w3-col m6 s6">
+                  <p><b>Gender:</b> <span id="gender"></span></p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-panel w3-white w3-border w3-padding w3-hide-large w3-hide-medium profile">
+        <div class="w3-row-padding">
+          <div class="w3-col m3 s4">
+            <div>
+              <img src="" alt="ProfilePic" class="profilepic w3-round-large w3-image me">
+            </div>
+          </div>
+          <div class="w3-col m9 s8 w3-center">
+            <div class="w3-container">
+              <h4><b><span class="main-content username"></span></b></h4>
+              <div class="w3-border-top">
+                <p><i class="fa fa-bookmark" aria-hidden="true"></i> <span id="quotes"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Loader -->
+      <div class="loader w3-content"></div>
+      
+      <!-- Posts -->
+      <div class="w3-padding-24">
+        <span id="story"></span>
+      </div>
+      
+     </div>      
+    
+      
+      
+    
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
